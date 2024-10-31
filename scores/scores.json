@@ -1,0 +1,68 @@
+{
+  "testScores": {
+    "From Scratch Tests": {
+      "FrScTe1": 0,
+      "FrScTe2": 0,
+      "FrScTe3": 0,
+      "FrScTe4": 0,
+      "FrScTe5": 0,
+      "FrScTe6": 0,
+      "FrScTe7": 0,
+      "FrScTe8": 0,
+      "FrScTe9": 0,
+      "FrScTe10": 0,
+      "FrScTe11": 0,
+      "FrScTe12": 0,
+      "FrScTe13": 0,
+      "FrScTe14": 0,
+      "FrScTe15": 0
+    }
+  },
+  "idToTestNameHash": {
+    "FrScTe1": "From Scratch Tests Sets up basic html correctly",
+    "FrScTe2": "From Scratch Tests form is a proper, accessible landmark with aria and heading",
+    "FrScTe3": "From Scratch Tests has a username label and input",
+    "FrScTe4": "From Scratch Tests has a coding level fieldset and legend",
+    "FrScTe5": "From Scratch Tests has radio buttons and labels, with the right default value starting checked",
+    "FrScTe6": "From Scratch Tests has select input with label",
+    "FrScTe7": "From Scratch Tests has the right select options and values",
+    "FrScTe8": "From Scratch Tests has a checkbox input and label",
+    "FrScTe9": "From Scratch Tests has a submit button for the form",
+    "FrScTe10": "From Scratch Tests Submission correctly prevents the default form behavior",
+    "FrScTe11": "From Scratch Tests Submission gets the right username and updates the result span",
+    "FrScTe12": "From Scratch Tests Submission gets the right coding level and updates the result span",
+    "FrScTe13": "From Scratch Tests Submission gets the right location and updates the result span",
+    "FrScTe14": "From Scratch Tests Submission gets the right didLikeAssignment and updates the results span to Yes or No",
+    "FrScTe15": "From Scratch Tests Submission resets the forms values",
+    "FrScTe16": "From Scratch Tests has a checkbox input and label",
+    "FrScTe17": "From Scratch Tests has a submit button for the form",
+    "FrScTe18": "From Scratch Tests has a submit button for the form",
+    "FrScTe19": "From Scratch Tests Submission correctly prevents the default form behavior",
+    "FrScTe20": "From Scratch Tests Submission gets the right username and updates the result span",
+    "FrScTe21": "From Scratch Tests Submission gets the right coding level and updates the result span",
+    "FrScTe22": "From Scratch Tests Submission gets the right location and updates the result span",
+    "FrScTe23": "From Scratch Tests Submission gets the right didLikeAssignment and updates the results span to Yes or No",
+    "FrScTe24": "From Scratch Tests Submission resets the forms values"
+  },
+  "testNameToIdHash": {
+    "From Scratch Tests Sets up basic html correctly": "FrScTe1",
+    "From Scratch Tests form is a proper, accessible landmark with aria and heading": "FrScTe2",
+    "From Scratch Tests has a username label and input": "FrScTe3",
+    "From Scratch Tests has a coding level fieldset and legend": "FrScTe4",
+    "From Scratch Tests has radio buttons and labels, with the right default value starting checked": "FrScTe5",
+    "From Scratch Tests has select input with label": "FrScTe6",
+    "From Scratch Tests has the right select options and values": "FrScTe7",
+    "From Scratch Tests has a checkbox input and label": "FrScTe8",
+    "From Scratch Tests has a submit button for the form": "FrScTe9",
+    "From Scratch Tests Submission correctly prevents the default form behavior": "FrScTe10",
+    "From Scratch Tests Submission gets the right username and updates the result span": "FrScTe11",
+    "From Scratch Tests Submission gets the right coding level and updates the result span": "FrScTe12",
+    "From Scratch Tests Submission gets the right location and updates the result span": "FrScTe13",
+    "From Scratch Tests Submission gets the right didLikeAssignment and updates the results span to Yes or No": "FrScTe14",
+    "From Scratch Tests Submission resets the forms values": "FrScTe15"
+  },
+  "humanReadable": {
+    "From Scratch Tests": "0/15",
+    "finalTestScore": "FINAL SCORE: 0/15"
+  }
+}
