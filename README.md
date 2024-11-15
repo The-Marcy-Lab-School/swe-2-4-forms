@@ -34,13 +34,13 @@ npm t
 
 ### Submitting On Time
 
-You have to understand that "grades" don't exist at Marcy. We only need performance data in order to know how you're doing, and make sure the people who need help get it as quickly as they can. It's ok if you didn't finish by the deadline! Just show us what you have. We'll have office hours and reviews, and we want to know what you are all struggling with so we can use those meetings effectively. **This is not about grades, its about seeing what you know, and where we can help!**
+You have to understand that "grades" don't exist at Marcy. We only need performance data in order to know how you're doing, and make sure the people who need help get it as quickly as they can. It's ok if you didn't finish by the deadline! Just show us what you have. We'll have office hours and reviews, and we want to know what you are all struggling with so we can use those meetings effectively. **This is not about grades, it's about seeing what you know and where we can help!**
 
 ### playground.js
 
 The most straightforward way to test your code is to test your code by hand as you work. Invoke your functions and use `console.log()` to print out the results. Then, `cd` into the `src/` directory and use the `node <file_name>` command to run your JavaScript files. 
 
-You can also create what's called a "playground" (or "sandbox") file where you import any code you need, and then mess around with that file. We've included one in the `src` directory so you can see it. Run that program using `node playground.js`.
+You can also create a "playground" (or "sandbox") file where you import any code you need and then mess around with it. We've included one in the `src` directory so you can see it. Run that program using `node playground.js`.
 
 ### npm test
 
@@ -115,7 +115,7 @@ In order to fully understand how to create a form, we ask that you code it by ha
 LET'S DO THIS!
 
 ### Question 3 - Adding username input and label
-We nee to add our first input and label. But first, a *quick* aside on labels.
+We need to add our first input and label. But first, a *quick* aside on labels.
 
 > **Lowdown on Labels**:
 > 
@@ -151,16 +151,16 @@ Now that we know what we're doing, create the following:
   - `name` of `username`
   - `placeholder` of `Add your username` (no spaces!)
 
-It's ok that our `id` and `name` match, but that won't always be the case! Also, note that order matters, if `label` comes after `input` it will render that way.
+It's okay that our `id` and `name` match, but that won't always be the case! Also, note that order matters, if `label` comes after `input` it will render that way.
 
-Fun fact, if we wanted a default value for our text input (not a `placeholder`), the we could add one by using the `value` attribute. But in this case we don't, so don't add a `value` to your input, it'll break the tests.
+Fun fact, if we wanted a default value for our text input (not a `placeholder`), then we could add one by using the `value` attribute. But in this case we don't, so don't add a `value` to your input, it'll break the tests.
 
 ### Question 4 - Adding a fieldset and legend
 Alright, you may not have seen these tags before, but we need a `fieldset` and `legend` to group our radio buttons together. `fieldset` is like a semantic `div`, it's useful for grouping similar elements together on a form. `legend` is like a label for all the inputs in the `fieldset` at once. `fieldset`s can be used for other inputs than radio buttons, but it's by far the most common use case. Here's an [article that shows how to build a radio group with a fieldset](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio)
 
-For this question, lets's just focus on building the `fieldset` and `legend`
+For this question, let's just focus on building the `fieldset` and `legend`
 - inside your form create a `fieldset` tag (no need for an id here, it's the only one)
-- inside your `fieldset` create a `legend` with text of `Coding Level`
+- inside your `fieldset` create a `legend` with the textContent `Coding Level`
 
 That's it! Now let's add the radio buttons.
 
@@ -209,7 +209,7 @@ Now that you know how to build one, let's do it!
   - Second `option` has a `value` of `other borough` and text of `Other Borough`
   - Third `option` has a `value` of `out of state` and text of `Out Of State`
 
-The order matters. The first option will essentially be the default value of the select, and then when the drop down opens it will render the options in the same order as they are in the dom. That's almost always important as you'll want to list your options alphabetically or by popularity or something.
+The order matters. The first option will essentially be the default value of the select, and then when the drop-down opens it will render the options in the same order as they are in the dom. That's almost always important as you'll want to list your options alphabetically or by popularity or something.
 
 Seriously, make sure the order matches or the tests will fail.
 
@@ -218,7 +218,7 @@ Last piece of data we want to collect is a boolean, so a checkbox is perfect! Ch
 
 Check out the [W3 schools tutorial on checkboxes](https://www.w3schools.com/tags/att_input_type_checkbox.asp)
 
-Alright, lets add our own
+Alright, let's add our own
 - Add the `input` with:
   - A `type` of `checkbox`
   - An `id` of `did-like-assignment`
@@ -245,7 +245,7 @@ console.log("The actual input element (or node list if it's a radio group)", for
 console.log('The final computed value', form.username.value)
 ```
 
-Of course you can destructure, but don't forget the difference between the element and the value. This is really nice because using the input name and value saves you from having to check things like `checked` existing.
+Of course, you can destructure, but don't forget the difference between the element and the value. This is really nice because using the input name and value saves you from having to check things like `checked` existing.
 
 The other option that works well is converting your data into an object using [the FormData API](https://developer.mozilla.org/en-US/docs/Web/API/FormData). FormData does a *lot* more than this, but it's honestly all we need right now.
 
